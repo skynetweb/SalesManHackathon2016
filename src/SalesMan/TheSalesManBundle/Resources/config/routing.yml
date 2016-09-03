@@ -1,0 +1,3 @@
+sales_man_homepage:
+    path:     /
+    defaults: { _controller: SalesManBundle:Default:index }
