@@ -42,6 +42,13 @@ class CampaignType extends AbstractType
         //     $builder->add('title', null, ['required' => false, ...]);
 
         $builder
+            ->add('Category_Name', ChoiceType::class, array(
+                'choices'  => array(
+                    'StockBusters' => 'StockBusters',
+                    'BlackFriday' => 'Black Friday',
+                    'No' => false,
+                ),
+            ))
             ->add('Category_Name', null, [
                 'attr' => ['autofocus' => true],
                 'label' => 'label.categoryName',

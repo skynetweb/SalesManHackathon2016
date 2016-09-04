@@ -9,7 +9,7 @@ campaign_0:
     start: 147292
     end: 147296
 campaign_1: 
-    campaign: Black Friday
+    campaign: BlackFriday
     category: Telefoane
     discount: 11
     buget: 72
@@ -19,7 +19,7 @@ campaign_1:
     start: 147288
     end: 147301
 #campaign_2:
-#    campaign: Black Friday
+#    campaign: BlackFriday
 #    category: Laptopuri
 #    discount: 15
 #    buget: 72
@@ -29,7 +29,7 @@ campaign_1:
 #    start: 147291
 #    end: 147301
 #campaign_3:
-#    campaign: Black Friday
+#    campaign: BlackFriday
 #    category: Telefoane
 #    discount: 14
 #    buget: 57
@@ -59,7 +59,7 @@ campaign_1:
 #    start: 147289
 #    end: 147295
 #campaign_6:
-#    campaign: Black Friday
+#    campaign: BlackFriday
 #    category: Tablete
 #    discount: 10
 #    buget: 76
@@ -69,7 +69,7 @@ campaign_1:
 #    start: 147292
 #    end: 147294
 #campaign_7:
-#    campaign: Black Friday
+#    campaign: BlackFriday
 #    category: Televizoare
 #    discount: 15
 #    buget: 70
@@ -79,7 +79,7 @@ campaign_1:
 #    start: 147291
 #    end: 147299
 #campaign_8:
-#    campaign: Black Friday
+#    campaign: BlackFriday
 #    category: Laptopuri
 #    discount: 8
 #    buget: 90
@@ -99,7 +99,7 @@ campaign_1:
 #    start: 147285
 #    end: 147301
 #campaign_10:
-#    campaign: Black Friday
+#    campaign: BlackFriday
 #    category: Tablete
 #    discount: 15
 #    buget: 89
@@ -119,7 +119,7 @@ campaign_1:
 #    start: 147293
 #    end: 147301
 #campaign_12:
-#    campaign: Black Friday
+#    campaign: BlackFriday
 #    category: Laptopuri
 #    discount: 6
 #    buget: 94
@@ -129,7 +129,7 @@ campaign_1:
 #    start: 147290
 #    end: 147301
 #campaign_13:
-#    campaign: Black Friday
+#    campaign: BlackFriday
 #    category: Tablete
 #    discount: 5
 #    buget: 81
@@ -159,7 +159,7 @@ campaign_1:
 #    start: 147290
 #    end: 147301
 #campaign_16:
-#    campaign: Black Friday
+#    campaign: BlackFriday
 #    category: Tablete
 #    discount: 12
 #    buget: 65
@@ -179,7 +179,7 @@ campaign_1:
 #    start: 147293
 #    end: 147295
 #campaign_18:
-#    campaign: Black Friday
+#    campaign: BlackFriday
 #    category: Telefoane
 #    discount: 14
 #    buget: 74
@@ -189,7 +189,7 @@ campaign_1:
 #    start: 147293
 #    end: 147301
 #campaign_19:
-#    campaign: Black Friday
+#    campaign: BlackFriday
 #    category: Laptopuri
 #    discount: 11
 #    buget: 99
@@ -239,7 +239,7 @@ campaign_1:
 #    start: 147289
 #    end: 147301
 #campaign_24:
-#    campaign: Black Friday
+#    campaign: BlackFriday
 #    category: Tablete
 #    discount: 7
 #    buget: 81
@@ -249,7 +249,7 @@ campaign_1:
 #    start: 147292
 #    end: 147300
 #campaign_25:
-#    campaign: Black Friday
+#    campaign: BlackFriday
 #    category: Laptopuri
 #    discount: 10
 #    buget: 84
@@ -259,7 +259,7 @@ campaign_1:
 #    start: 147285
 #    end: 147297
 #campaign_26:
-#    campaign: Black Friday
+#    campaign: BlackFriday
 #    category: Telefoane
 #    discount: 6
 #    buget: 63
@@ -269,7 +269,7 @@ campaign_1:
 #    start: 147290
 #    end: 147297
 #campaign_27:
-#    campaign: Black Friday
+#    campaign: BlackFriday
 #    category: Laptopuri
 #    discount: 8
 #    buget: 68
@@ -279,7 +279,7 @@ campaign_1:
 #    start: 147287
 #    end: 147296
 #campaign_28:
-#    campaign: Black Friday
+#    campaign: BlackFriday
 #    category: Tablete
 #    discount: 9
 #    buget: 84
