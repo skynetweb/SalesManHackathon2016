@@ -56,29 +56,29 @@ namespace SalesMan\TheSalesManBundle\Lib\ANN\Controller;
 class ControllerPrintNetwork extends Controller
 {
 	/**
-	 * @var \ANN\Network
+	 * @var SalesMan\TheSalesManBundle\Lib\ANN\Network
 	 */
 
 	protected $objNetwork;
 	
 	/**
-	 * @var \ANN\Views\View
+	 * @var SalesMan\TheSalesManBundle\Lib\ANN\Views\View
 	 */
 	
 	protected $objViewLayer;
 
 	/**
-	 * @var \ANN\Views\View
+	 * @var SalesMan\TheSalesManBundle\Lib\ANN\Views\View
 	 */
 	
 	protected $objViewNeuron;
 
 	/**
-	 * @param \ANN\Network $objNetwork
+	 * @param SalesMan\TheSalesManBundle\Lib\ANN\Network $objNetwork
 	 * @uses parent::__construct()
 	 */
 	
-	public function __construct(\ANN\Network $objNetwork)
+	public function __construct(SalesMan\TheSalesManBundle\Lib\ANN\Network $objNetwork)
 	{
 		$this->objNetwork = $objNetwork;
 		
@@ -86,7 +86,7 @@ class ControllerPrintNetwork extends Controller
 	}
 
 	/**
-	 * \ANN\Views\View::__construct()
+	 * SalesMan\TheSalesManBundle\Lib\ANN\Views\View::__construct()
 	 * parent::Header()
 	 */
 	
@@ -101,35 +101,35 @@ class ControllerPrintNetwork extends Controller
 		$strFilenameNeuron = $this->strDirectoryTemplates . DIRECTORY_SEPARATOR .'tpl.neuron.html';
 
 		if(!is_file($strFilenameNetwork))
-		  throw new \ANN\Exception('File '. $strFilenameNetwork .' does not exist');
+		  throw new SalesMan\TheSalesManBundle\Lib\ANN\Exception('File '. $strFilenameNetwork .' does not exist');
 
 		if(!is_file($strFilenameLayer))
-		  throw new \ANN\Exception('File '. $strFilenameLayer .' does not exist');
+		  throw new SalesMan\TheSalesManBundle\Lib\ANN\Exception('File '. $strFilenameLayer .' does not exist');
 
 		if(!is_file($strFilenameNeuron))
-		  throw new \ANN\Exception('File '. $strFilenameNeuron .' does not exist');
+		  throw new SalesMan\TheSalesManBundle\Lib\ANN\Exception('File '. $strFilenameNeuron .' does not exist');
 
 		if(!is_readable($strFilenameNetwork))
-		  throw new \ANN\Exception('File '. $strFilenameNetwork .' is not readable');
+		  throw new SalesMan\TheSalesManBundle\Lib\ANN\Exception('File '. $strFilenameNetwork .' is not readable');
 
 		if(!is_readable($strFilenameLayer))
-		  throw new \ANN\Exception('File '. $strFilenameLayer .' is not readable');
+		  throw new SalesMan\TheSalesManBundle\Lib\ANN\Exception('File '. $strFilenameLayer .' is not readable');
 
 		if(!is_readable($strFilenameNeuron))
-		  throw new \ANN\Exception('File '. $strFilenameNeuron .' is not readable');
+		  throw new SalesMan\TheSalesManBundle\Lib\ANN\Exception('File '. $strFilenameNeuron .' is not readable');
 
-		$this->objViewContent = new \ANN\Views\View($strFilenameNetwork);
+		$this->objViewContent = new SalesMan\TheSalesManBundle\Lib\ANN\Views\View($strFilenameNetwork);
 
-		$this->objViewLayer = new \ANN\Views\View($strFilenameLayer);
+		$this->objViewLayer = new SalesMan\TheSalesManBundle\Lib\ANN\Views\View($strFilenameLayer);
 	
-		$this->objViewNeuron = new \ANN\Views\View($strFilenameNeuron);
+		$this->objViewNeuron = new SalesMan\TheSalesManBundle\Lib\ANN\Views\View($strFilenameNeuron);
 	}
 
 	/**
 	 * @uses getNeurons()
-	 * @uses \ANN\Network::getNetworkInfo()
-	 * @uses \ANN\Views\View::setArray()
-	 * @uses \ANN\Views\View::setVar()
+	 * @uses SalesMan\TheSalesManBundle\Lib\ANN\Network::getNetworkInfo()
+	 * @uses SalesMan\TheSalesManBundle\Lib\ANN\Views\View::setArray()
+	 * @uses SalesMan\TheSalesManBundle\Lib\ANN\Views\View::setVar()
 	 */
 
 	protected function Content()
@@ -147,13 +147,13 @@ class ControllerPrintNetwork extends Controller
 	
 	/**
 	 * @return string
-	 * @uses \ANN\Network::getNetworkInfo()
-	 * @uses \ANN\Layer::getDelta()
-	 * @uses \ANN\Layer::getNeurons()
-	 * @uses \ANN\Views\View::getView()
-	 * @uses \ANN\Views\View::resetView()
-	 * @uses \ANN\Views\View::setIf()
-	 * @uses \ANN\Views\View::setVar()
+	 * @uses SalesMan\TheSalesManBundle\Lib\ANN\Network::getNetworkInfo()
+	 * @uses SalesMan\TheSalesManBundle\Lib\ANN\Layer::getDelta()
+	 * @uses SalesMan\TheSalesManBundle\Lib\ANN\Layer::getNeurons()
+	 * @uses SalesMan\TheSalesManBundle\Lib\ANN\Views\View::getView()
+	 * @uses SalesMan\TheSalesManBundle\Lib\ANN\Views\View::resetView()
+	 * @uses SalesMan\TheSalesManBundle\Lib\ANN\Views\View::setIf()
+	 * @uses SalesMan\TheSalesManBundle\Lib\ANN\Views\View::setVar()
 	 */
 
 	protected function getNeurons()
@@ -198,7 +198,7 @@ class ControllerPrintNetwork extends Controller
 			}
 		}
 		
-		/* @var $objOutputLayer \ANN\Layer */
+		/* @var $objOutputLayer SalesMan\TheSalesManBundle\Lib\ANN\Layer */
 		
 		$objOutputLayer = $arrNetworkInfo['network']['objOutputLayer'];
 		

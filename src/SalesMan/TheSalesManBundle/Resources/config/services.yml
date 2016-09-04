@@ -2,3 +2,9 @@ services:
 #    sales_man.example:
 #        class: SalesMan\TheSalesManBundle\Example
 #        arguments: ["@service_id", "plain_value", %parameter%]
+  sales_man.train:
+    class: SalesMan\TheSalesManBundle\Service\TrainCampaign
+    arguments: [%kernel.root_dir%]
+  sales_man.estimate:
+    class: SalesMan\TheSalesManBundle\Service\EstimateCampaign
+    arguments: [%kernel.root_dir%]

@@ -300,9 +300,9 @@ class Network extends Filesystem implements InterfaceLoadable
 	 * already trained network.
 	 *
 	 * <code>
-	 * $objNetwork = new \ANN\Network(2, 4, 1);
+	 * $objNetwork = new SalesMan\TheSalesManBundle\Lib\ANN\Network(2, 4, 1);
 	 *
-	 * $objValues = new \ANN\Values;
+	 * $objValues = new SalesMan\TheSalesManBundle\Lib\ANN\Values;
 	 *
 	 * $objValues->train()
 	 *           ->input(0.12, 0.11, 0.15)
@@ -1154,12 +1154,12 @@ class Network extends Filesystem implements InterfaceLoadable
 	}
 
 	/**
-	 * @uses \ANN\Controller\ControllerPrintNetwork::__construct()
+	 * @uses SalesMan\TheSalesManBundle\Lib\ANN\Controller\ControllerPrintNetwork::__construct()
 	 */
 
 	public function printNetwork()
 	{
-		$objController = new \ANN\Controller\ControllerPrintNetwork($this);
+		$objController = new SalesMan\TheSalesManBundle\Lib\ANN\Controller\ControllerPrintNetwork($this);
 	}	
 	
 	/**

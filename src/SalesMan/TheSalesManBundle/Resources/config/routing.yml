@@ -1,3 +1,9 @@
 sales_man_homepage:
     path:     /
     defaults: { _controller: SalesManBundle:Default:index }
+train:
+    path:     /train
+    defaults: { _controller: SalesManBundle:Default:train }
+estimate:
+    path:     /estimate
+    defaults: { _controller: SalesManBundle:Default:estimate }

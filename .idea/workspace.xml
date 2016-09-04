@@ -2,43 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="555ba1b5-c7ff-44f8-abb2-ce6d747715d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Form/CampaignType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Form/Type/DateTimePickerType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Classification.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Controller/Controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Controller/ControllerPrintNetwork.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/DateInputs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Filesystem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/InputValue.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/InterfaceLoadable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Layer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Loader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Logging.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Maths.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Network.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/NetworkGraph.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Neuron.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/OutputValue.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Server.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/StringValue.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Templates/tpl.layer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Templates/tpl.main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Templates/tpl.network.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Templates/tpl.neuron.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/TimeInputs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Values.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Views/View.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/tests/MathsTest.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/.gitkeep" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Service/EstimateCampaign.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Service/TrainCampaign.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/data/blog.sqlite" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/data/blog_test.sqlite" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/translations/messages.en.xliff" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.en.xliff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/blog/about.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/blog/about.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/homepage.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/homepage.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Controller/ControllerPrintNetwork.php" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Controller/ControllerPrintNetwork.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Network.php" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Network.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/config/services.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/views/Default/index.html.twig" />
     </list>
     <ignored path="SalesManHackathon2016.iws" />
@@ -60,101 +34,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="TrainCampaign.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Service/TrainCampaign.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="113" column="63" selection-start-line="113" selection-start-column="46" selection-end-line="113" selection-end-column="63" />
+              <folding>
+                <element signature="e#6#98#0#PHP" expanded="true" />
+                <element signature="e#146#193#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EstimateCampaign.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Service/EstimateCampaign.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/config/services.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="669">
+              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+              <folding>
+                <element signature="e#57#106#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/views/Default/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerPrintNetwork.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Controller/ControllerPrintNetwork.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="76" column="56" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Network.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Network.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="227">
+              <caret line="1161" column="88" selection-start-line="1161" selection-start-column="88" selection-end-line="1161" selection-end-column="88" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NetworkGraph.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/NetworkGraph.php">
+      <file leaf-file-name="data.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="7225">
+              <caret line="289" column="16" selection-start-line="289" selection-start-column="16" selection-end-line="289" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Neuron.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Neuron.php">
+      <file leaf-file-name="YamlFileLoader.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/YamlFileLoader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OutputValue.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/OutputValue.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Server.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Server.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringValue.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/StringValue.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeInputs.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/TimeInputs.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Values.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Values.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Views/View.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Controller/Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="5">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -172,16 +151,13 @@
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Form/PostType.php" />
         <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Form/Type/DateTimePickerType.php" />
-        <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/homepage.html.twig" />
-        <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Form/CampaignType.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/blog/about.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/translations/messages.en.xliff" />
         <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Classification.php" />
         <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Controller/Controller.php" />
-        <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Controller/ControllerPrintNetwork.php" />
         <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/DateInputs.php" />
         <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Exception.php" />
         <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Filesystem.php" />
@@ -191,7 +167,6 @@
         <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Loader.php" />
         <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Logging.php" />
         <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Maths.php" />
-        <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Network.php" />
         <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/NetworkGraph.php" />
         <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Neuron.php" />
         <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/OutputValue.php" />
@@ -200,6 +175,15 @@
         <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/TimeInputs.php" />
         <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Values.php" />
         <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Views/View.php" />
+        <option value="$PROJECT_DIR$/data.yml" />
+        <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Network.php" />
+        <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Controller/ControllerPrintNetwork.php" />
+        <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Service/TrainCampaign.php" />
+        <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Service/EstimateCampaign.php" />
+        <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/views/Default/index.html.twig" />
       </list>
     </option>
   </component>
@@ -271,38 +255,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SalesManHackathon2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SalesManHackathon2016" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SalesManHackathon2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SalesManHackathon2016" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -351,7 +303,67 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Lib" />
+              <option name="myItemId" value="Service" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SalesManHackathon2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SalesManHackathon2016" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SalesMan" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheSalesManBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SalesManHackathon2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SalesManHackathon2016" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SalesMan" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheSalesManBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -366,24 +378,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SalesManHackathon2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SalesManHackathon2016" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -394,11 +388,13 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Git/Git Bash.lnk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ann/chart.php" />
     <property name="WebServerToolWindowFactoryState" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\SalesManHackathon2016\src\SalesMan\TheSalesManBundle\Service" />
+      <recent name="D:\xampp\htdocs\SalesManHackathon2016" />
       <recent name="D:\xampp\htdocs\SalesManHackathon2016\src\SalesMan\TheSalesManBundle\Lib" />
       <recent name="D:\xampp\htdocs\SalesManHackathon2016\src\SalesMan\TheSalesManBundle" />
     </key>
@@ -455,23 +451,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472930686650</updated>
-      <workItem from="1472930687805" duration="6746000" />
+      <workItem from="1472930687805" duration="12744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6746000" />
+    <option name="totallyTimeSpent" value="12744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17027026" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -498,7 +494,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -518,16 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding>
-            <element signature="e#57#106#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -541,7 +529,7 @@
         <state relative-caret-position="98">
           <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
-            <element signature="e#287#329#0#PHP" expanded="true" />
+            <element signature="e#287#329#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -567,7 +555,7 @@
         <state relative-caret-position="-881">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#265#291#0#PHP" expanded="true" />
+            <element signature="e#265#291#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -584,14 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -633,7 +613,7 @@
         <state relative-caret-position="475">
           <caret line="61" column="35" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="35" />
           <folding>
-            <element signature="e#281#339#0#PHP" expanded="true" />
+            <element signature="e#281#339#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -642,14 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="340" column="36" selection-start-line="340" selection-start-column="36" selection-end-line="340" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -666,14 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Controller/ControllerPrintNetwork.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -750,14 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Network.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/NetworkGraph.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -826,6 +782,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ann/chart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/FileLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/DependencyInjection/SalesManExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="79" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="79" />
+          <folding>
+            <element signature="e#66#125#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/YamlFileLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7225">
+          <caret line="289" column="16" selection-start-line="289" selection-start-column="16" selection-end-line="289" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Network.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="1161" column="88" selection-start-line="1161" selection-start-column="88" selection-end-line="1161" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Lib/ANN/Controller/ControllerPrintNetwork.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="76" column="56" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Service/TrainCampaign.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="113" column="63" selection-start-line="113" selection-start-column="46" selection-end-line="113" selection-end-column="63" />
+          <folding>
+            <element signature="e#6#98#0#PHP" expanded="true" />
+            <element signature="e#146#193#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Service/EstimateCampaign.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+          <folding>
+            <element signature="e#57#106#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SalesMan/TheSalesManBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
           <folding />
         </state>
       </provider>

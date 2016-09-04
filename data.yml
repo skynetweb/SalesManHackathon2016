@@ -1,0 +1,300 @@
+campaign_0: 
+    campaign: StockBusters
+    category: Telefoane
+    discount: 15
+    buget: 85
+    orders: 71
+    visits: 150
+    prodq: 157
+    start: 147292
+    end: 147296
+campaign_1: 
+    campaign: Black Friday
+    category: Telefoane
+    discount: 11
+    buget: 72
+    orders: 63
+    visits: 136
+    prodq: 192
+    start: 147288
+    end: 147301
+#campaign_2:
+#    campaign: Black Friday
+#    category: Laptopuri
+#    discount: 15
+#    buget: 72
+#    orders: 88
+#    visits: 129
+#    prodq: 171
+#    start: 147291
+#    end: 147301
+#campaign_3:
+#    campaign: Black Friday
+#    category: Telefoane
+#    discount: 14
+#    buget: 57
+#    orders: 56
+#    visits: 149
+#    prodq: 141
+#    start: 147292
+#    end: 147302
+#campaign_4:
+#    campaign: StockBusters
+#    category: Tablete
+#    discount: 5
+#    buget: 68
+#    orders: 74
+#    visits: 107
+#    prodq: 172
+#    start: 147289
+#    end: 147300
+#campaign_5:
+#    campaign: StockBusters
+#    category: Telefoane
+#    discount: 8
+#    buget: 86
+#    orders: 71
+#    visits: 114
+#    prodq: 131
+#    start: 147289
+#    end: 147295
+#campaign_6:
+#    campaign: Black Friday
+#    category: Tablete
+#    discount: 10
+#    buget: 76
+#    orders: 87
+#    visits: 131
+#    prodq: 163
+#    start: 147292
+#    end: 147294
+#campaign_7:
+#    campaign: Black Friday
+#    category: Televizoare
+#    discount: 15
+#    buget: 70
+#    orders: 95
+#    visits: 124
+#    prodq: 188
+#    start: 147291
+#    end: 147299
+#campaign_8:
+#    campaign: Black Friday
+#    category: Laptopuri
+#    discount: 8
+#    buget: 90
+#    orders: 82
+#    visits: 125
+#    prodq: 122
+#    start: 147287
+#    end: 147301
+#campaign_9:
+#    campaign: StockBusters
+#    category: Tablete
+#    discount: 10
+#    buget: 60
+#    orders: 52
+#    visits: 109
+#    prodq: 177
+#    start: 147285
+#    end: 147301
+#campaign_10:
+#    campaign: Black Friday
+#    category: Tablete
+#    discount: 15
+#    buget: 89
+#    orders: 37
+#    visits: 104
+#    prodq: 136
+#    start: 147288
+#    end: 147300
+#campaign_11:
+#    campaign: StockBusters
+#    category: Tablete
+#    discount: 8
+#    buget: 82
+#    orders: 36
+#    visits: 130
+#    prodq: 172
+#    start: 147293
+#    end: 147301
+#campaign_12:
+#    campaign: Black Friday
+#    category: Laptopuri
+#    discount: 6
+#    buget: 94
+#    orders: 93
+#    visits: 111
+#    prodq: 167
+#    start: 147290
+#    end: 147301
+#campaign_13:
+#    campaign: Black Friday
+#    category: Tablete
+#    discount: 5
+#    buget: 81
+#    orders: 79
+#    visits: 145
+#    prodq: 155
+#    start: 147291
+#    end: 147300
+#campaign_14:
+#    campaign: StockBusters
+#    category: Tablete
+#    discount: 11
+#    buget: 67
+#    orders: 87
+#    visits: 148
+#    prodq: 130
+#    start: 147287
+#    end: 147300
+#campaign_15:
+#    campaign: StockBusters
+#    category: Tablete
+#    discount: 15
+#    buget: 78
+#    orders: 78
+#    visits: 117
+#    prodq: 148
+#    start: 147290
+#    end: 147301
+#campaign_16:
+#    campaign: Black Friday
+#    category: Tablete
+#    discount: 12
+#    buget: 65
+#    orders: 35
+#    visits: 131
+#    prodq: 154
+#    start: 147288
+#    end: 147301
+#campaign_17:
+#    campaign: StockBusters
+#    category: Televizoare
+#    discount: 11
+#    buget: 77
+#    orders: 34
+#    visits: 127
+#    prodq: 192
+#    start: 147293
+#    end: 147295
+#campaign_18:
+#    campaign: Black Friday
+#    category: Telefoane
+#    discount: 14
+#    buget: 74
+#    orders: 59
+#    visits: 133
+#    prodq: 153
+#    start: 147293
+#    end: 147301
+#campaign_19:
+#    campaign: Black Friday
+#    category: Laptopuri
+#    discount: 11
+#    buget: 99
+#    orders: 55
+#    visits: 134
+#    prodq: 158
+#    start: 147288
+#    end: 147297
+#campaign_20:
+#    campaign: StockBusters
+#    category: Televizoare
+#    discount: 12
+#    buget: 61
+#    orders: 47
+#    visits: 148
+#    prodq: 119
+#    start: 147287
+#    end: 147301
+#campaign_21:
+#    campaign: StockBusters
+#    category: Tablete
+#    discount: 14
+#    buget: 55
+#    orders: 89
+#    visits: 147
+#    prodq: 157
+#    start: 147293
+#    end: 147302
+#campaign_22:
+#    campaign: StockBusters
+#    category: Tablete
+#    discount: 15
+#    buget: 60
+#    orders: 72
+#    visits: 117
+#    prodq: 134
+#    start: 147287
+#    end: 147302
+#campaign_23:
+#    campaign: StockBusters
+#    category: Televizoare
+#    discount: 13
+#    buget: 68
+#    orders: 50
+#    visits: 139
+#    prodq: 188
+#    start: 147289
+#    end: 147301
+#campaign_24:
+#    campaign: Black Friday
+#    category: Tablete
+#    discount: 7
+#    buget: 81
+#    orders: 90
+#    visits: 134
+#    prodq: 143
+#    start: 147292
+#    end: 147300
+#campaign_25:
+#    campaign: Black Friday
+#    category: Laptopuri
+#    discount: 10
+#    buget: 84
+#    orders: 35
+#    visits: 138
+#    prodq: 141
+#    start: 147285
+#    end: 147297
+#campaign_26:
+#    campaign: Black Friday
+#    category: Telefoane
+#    discount: 6
+#    buget: 63
+#    orders: 74
+#    visits: 141
+#    prodq: 105
+#    start: 147290
+#    end: 147297
+#campaign_27:
+#    campaign: Black Friday
+#    category: Laptopuri
+#    discount: 8
+#    buget: 68
+#    orders: 32
+#    visits: 133
+#    prodq: 179
+#    start: 147287
+#    end: 147296
+#campaign_28:
+#    campaign: Black Friday
+#    category: Tablete
+#    discount: 9
+#    buget: 84
+#    orders: 70
+#    visits: 140
+#    prodq: 118
+#    start: 147285
+#    end: 147300
+#campaign_29:
+#    campaign: StockBusters
+#    category: Tablete
+#    discount: 6
+#    buget: 92
+#    orders: 74
+#    visits: 100
+#    prodq: 136
+#    start: 147288
+#    end: 147301
