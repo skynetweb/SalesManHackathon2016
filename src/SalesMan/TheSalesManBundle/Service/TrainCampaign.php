@@ -42,9 +42,8 @@ class TrainCampaign
             $objCategory = new StringValue(15);
             $objDiscount = new InputValue(0, 15);
             $objBudget = new InputValue(0, 100);
-            $objStart = new InputValue(147285, 147293);
-            $objEnd = new InputValue(147293, 147302);
-
+            $objStart = new InputValue(140000, 159999);
+            $objEnd = new InputValue(140000, 159999);
 
             $objCampaign->saveToFile($this->rootDir.'/data/input_category.dat');
             $objCategory->saveToFile($this->rootDir.'/data/input_category.dat');

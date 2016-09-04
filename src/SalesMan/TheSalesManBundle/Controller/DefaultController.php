@@ -62,6 +62,10 @@ class DefaultController extends Controller
      */
     public function estimateAction(Request $request)
     {
-        var_dump($request->request->all());
+        $service = $this->get('sales_man.estimate');
+        $data = $service->estimate($request->request->all());
+        return $this->render('SalesManBundle:Default:estimate.html.twig', [
+            'data' => $data
+        ]);
     }
 }

@@ -19,17 +19,19 @@ class EstimateCampaign
 {
     function __construct($rootDir)
     {
-
         $this->rootDir = $rootDir;
-//        $path = realpath($rootDir . '/../');
-//        $locator = new \Symfony\Component\Config\FileLocator($path);
-//        $resource = $locator->locate('data.yml', null, false);
-//        $this->data = \Symfony\Component\Yaml\Yaml::parse(file_get_contents($resource[0]));
     }
 
 
-    public function estimate()
+    public function estimate($data)
     {
+        $startDate = strtotime($data['campaign']['startDate']);
+        $endDate = strtotime($data['campaign']['endDate']);
+        $budgetMarketing = $data['campaign']['Budget_Marketing'];
+        $discount = $data['campaign']['Discount'];
+        $campaignName = $data['campaign']['Campaign_Name'];
+        $categoryName = $data['campaign']['Category_Name'];
+
 
         try {
             $objNetwork = Network::loadFromFile($this->rootDir.'/data/campaigns.dat');
@@ -59,13 +61,16 @@ class EstimateCampaign
             die('Loading of values failed');
         }
 
+
         $objValues->input(
-            $objCampaign->getInputValue('StockBusters'),
-            $objCategory->getInputValue('Laptopuri'),
-            $objDiscount->getInputValue(8),
-            $objStart->getInputValue(147286),
-            $objEnd->getInputValue(147294)
+            $objCampaign->getInputValue($campaignName),
+            $objCategory->getInputValue($categoryName),
+            $objDiscount->getInputValue($discount),
+            $objStart->getInputValue(substr($startDate,0, 6)),
+            $objEnd->getInputValue(substr($endDate,0,6))
         );
+
+
         $objNetwork->setValues($objValues);
         $arrOutputs = $objNetwork->getOutputs();
 
@@ -74,6 +79,11 @@ class EstimateCampaign
             foreach ($arrOutput as $floatOutput)
                  array_push($values,  $objOrders->getRealOutputValue($floatOutput));
 
-        return $values;
+        $results =  array_slice($values, -3, 3, false);
+        foreach ($results as $TmpKey => $result)
+        {
+            $results[$TmpKey] = $result*1000;
+        }
+        return $results;
     }
 }

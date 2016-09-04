@@ -13,6 +13,7 @@ namespace SalesMan\TheSalesManBundle\Form;
 use Symfony\Component\Form\Extension\Core\Type\ButtonType;
 use SalesMan\TheSalesManBundle\Form\Type\DateTimePickerType;
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
@@ -63,7 +64,7 @@ class CampaignType extends AbstractType
                 'attr' => ['autofocus' => true],
                 'label' => 'label.budget',
             ])
-            ->add('save', ButtonType::class, array(
+            ->add('save', SubmitType::class, array(
                 'attr' => array('class' => 'save'),
             ));
 //            ->add('summary', TextareaType::class, [

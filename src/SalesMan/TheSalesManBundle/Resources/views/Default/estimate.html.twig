@@ -1,0 +1,29 @@
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script>
+    google.charts.load('current', {packages: ['corechart', 'bar']});
+    google.charts.setOnLoadCallback(drawDualX);
+
+    function drawDualX() {
+
+        var data = google.visualization.arrayToDataTable([
+            ['Campaign', 'Orders', 'Sold Products', 'Visits on site'],
+                ['Campaign Results',  {{ data[0] }},  {{ data[1] }},  {{ data[0] }} ]
+        ]);
+
+
+
+        var options = {
+            chart: {
+                title: 'Campaign Results Chart'
+            },
+            vAxis: {
+                title: 'Campaign'
+            },
+            bars: 'horizontal'
+        };
+        var material = new google.charts.Bar(document.getElementById('chart_div'));
+        material.draw(data, options);
+    }
+    </script>
+<!--Div that will hold the pie chart-->
+<div id="chart_div" style="height:500"></div>
