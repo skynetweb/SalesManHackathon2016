@@ -317,6 +317,30 @@
                 <source>help.more_information</source>
                 <target><![CDATA[For more information, check out the <a href="http://symfony.com/doc">Symfony doc</a>.]]></target>
             </trans-unit>
+            <trans-unit id="label.categoryName">
+                <source>label.categoryName</source>
+                <target>Category Name</target>
+            </trans-unit>
+            <trans-unit id="label.campaingName">
+                <source>label.campaingName</source>
+                <target>Campaign Name</target>
+            </trans-unit>
+            <trans-unit id="label.start_at">
+                <source>label.start_at</source>
+                <target>Start Date</target>
+            </trans-unit>
+            <trans-unit id="label.end_at">
+                <source>label.end_at</source>
+                <target>End Date</target>
+            </trans-unit>
+             <trans-unit id="label.discount">
+                <source>label.discount</source>
+                <target>Discount %</target>
+            </trans-unit>
+            <trans-unit id="label.budget">
+                <source>label.budget</source>
+                <target>Budget Marketing</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

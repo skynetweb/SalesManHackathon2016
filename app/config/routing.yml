@@ -2,10 +2,6 @@ sales_man:
     resource: "@SalesManBundle/Resources/config/routing.yml"
     prefix:   /
 
-acme_sales_man:
-    resource: "@AcmeSalesManBundle/Resources/config/routing.yml"
-    prefix:   /
-
 # These first lines load the all routes defined as @Route() annotations in any
 # controller defined inside the src/AppBundle/Controller/ directory. Controllers
 # are loaded recursively, so you can separate them into subdirectories.
