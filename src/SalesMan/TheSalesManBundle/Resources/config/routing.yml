@@ -7,3 +7,6 @@ train:
 estimate:
     path:     /estimate
     defaults: { _controller: SalesManBundle:Default:estimate }
+period-estimate:
+    path:     /periodEstimate
+    defaults: { _controller: SalesManBundle:Default:periodEstimate }

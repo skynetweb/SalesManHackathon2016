@@ -1,5 +1,3 @@
-
-
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script>
     google.charts.load('current', {packages: ['corechart', 'bar']});
@@ -9,17 +7,19 @@
 
         var data = google.visualization.arrayToDataTable([
             ['Campaign', 'Orders', 'Sold Products', 'Visits on site'],
-                ['Campaign Results',  {{ data[0] }},  {{ data[1] }},  {{ data[0] }} ]
+                ['1 Jun - 7 Jun',  16043,  35000,  599301 ],
+                ['8 Jun - 14 Jun',  14743,  28721,  899301 ],
+                ['15 Jun - 21 Jun',  15238,  28912,  119301 ],
+                ['22 Jun - 1 Jul',  12271,  22023,  400223 ]
         ]);
-
 
 
         var options = {
             chart: {
-                title: 'Campaign Results Chart'
+                title: 'Campaign StockBusters'
             },
             vAxis: {
-                title: 'Campaign'
+                title: 'Period'
             },
             bars: 'horizontal'
         };
@@ -29,5 +29,4 @@
     </script>
 <!--Div that will hold the pie chart-->
 
-Period: {{ period['campaign']['startDate'] }}
-<div id="chart_div" style="height:300"></div>
+<div id="chart_div" style="height:500"></div>

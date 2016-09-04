@@ -10,42 +10,41 @@
  */
 
 namespace SalesMan\TheSalesManBundle\Form;
+use Symfony\Component\Form\Extension\Core\Type\ButtonType;
 use SalesMan\TheSalesManBundle\Form\Type\DateTimePickerType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**
- * Class CampaignType
+ * Class PeriodType
  * @package SalesMan\TheSalesManBundle\Form
  */
-class CampaignType extends AbstractType
+class PeriodType extends AbstractType
 {
     /**
      * {@inheritdoc}
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-
         $builder
-            ->add('Campaign_Name', ChoiceType::class, array(
-                'choices'  => array(
-                    'StockBusters' => 'StockBusters',
-                    'BlackFriday' => 'Black Friday'
-                ),
-            ))
-            ->add('Category_Name', ChoiceType::class, [
+//            ->add('Category_Name', ChoiceType::class, array(
+//                'choices'  => array(
+//                    'StockBusters' => 'StockBusters',
+//                    'BlackFriday' => 'Black Friday'
+//                ),
+//            ))
+            ->add('Campaign_Name', ChoiceType::class, [
                 'attr' => ['autofocus' => true],
                 'choices' => array(
-                    'Telefoane' => 'Telefoane',
-                    'Tablete' => 'Tablete',
-                    'Televizoare' => 'Televizoare',
-                    'Laptopuri' => 'Laptopuri'
+                    'StockBusters' => 'StockBusters',
+                    'BlackFriday' => 'Black Friday'
 
                 ),
-                'label' => 'label.categoryName',
+                'label' => 'label.campaingName',
             ])
             ->add('startDate', DateTimePickerType::class, [
                 'label' => 'label.start_at',
@@ -53,14 +52,14 @@ class CampaignType extends AbstractType
             ->add('endDate', DateTimePickerType::class, [
                 'label' => 'label.end_at',
             ])
-            ->add('Discount', null, [
-                'attr' => ['autofocus' => true],
-                'label' => 'label.discount',
-            ])
-            ->add('Budget_Marketing', null, [
-                'attr' => ['autofocus' => true],
-                'label' => 'label.budget',
-            ])
+//            ->add('Discount', null, [
+//                'attr' => ['autofocus' => true],
+//                'label' => 'label.discount',
+//            ])
+//            ->add('Budget_Marketing', null, [
+//                'attr' => ['autofocus' => true],
+//                'label' => 'label.budget',
+//            ])
             ->add('save', SubmitType::class, array(
                 'attr' => array('class' => 'save'),
             ));

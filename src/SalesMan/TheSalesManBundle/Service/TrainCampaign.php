@@ -12,8 +12,6 @@ use SalesMan\TheSalesManBundle\Lib\ANN\InputValue;
 use SalesMan\TheSalesManBundle\Lib\ANN\OutputValue;
 use SalesMan\TheSalesManBundle\Lib\ANN\StringValue;
 use SalesMan\TheSalesManBundle\Lib\ANN\Values;
-use Symfony\Component\DependencyInjection\Loader;
-use Symfony\Component\HttpKernel\Kernel;
 
 class TrainCampaign
 {

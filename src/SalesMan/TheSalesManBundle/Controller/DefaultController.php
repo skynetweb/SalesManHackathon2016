@@ -3,6 +3,7 @@
 namespace SalesMan\TheSalesManBundle\Controller;
 
 use SalesMan\TheSalesManBundle\Form\CampaignType;
+use SalesMan\TheSalesManBundle\Form\PeriodType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -17,30 +18,27 @@ class DefaultController extends Controller
      * @Route("/save", name="save")
      * @Method("POST")
      * @ParamConverter("post", options={"mapping": {"postSlug": "slug"}})
-     *
-     * NOTE: The ParamConverter mapping is required because the route parameter
-     * (postSlug) doesn't match any of the Doctrine entity properties (slug).
-     * See http://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/annotations/converters.html#doctrine-converter
      */
     public function indexAction(Request $request)
     {
 
-        $post = $request->request->all();
+//        $post = $request->request->all();
         $form = $this->createForm(CampaignType::class);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-            $service = $this->get('sales_man.estimate');
-//            $service->estimate();
 
-            return $this->redirectToRoute('/estimate', ['data' => $service->estimate()]);
+            $service = $this->get('sales_man.estimate');
+            $data = $service->estimate($request->request->all());
+            return $this->render('SalesManBundle:Default:estimate.html.twig', [
+                'data' => $data,
+                'period' => $request->request->all()
+            ]);
         }
 
         return $this->render('SalesManBundle:Default:index.html.twig', [
-            'post' => $post,
             'form' => $form->createView(),
         ]);
-//        return $this->render('SalesManBundle:Default:index.html.twig');
     }
 
     /**
@@ -53,7 +51,7 @@ class DefaultController extends Controller
         $service->train();
 
 
-        return  new Response('Campaign Trained!');
+        return  new Response();
     }
 
     /**
@@ -66,6 +64,30 @@ class DefaultController extends Controller
         $data = $service->estimate($request->request->all());
         return $this->render('SalesManBundle:Default:estimate.html.twig', [
             'data' => $data
+        ]);
+    }
+
+    /**
+     * @Route("/periodEstimate", name="period-estimate")
+     * @Method("GET")
+     */
+    public function periodEstimateAction(Request $request)
+    {
+
+        $form = $this->createForm(PeriodType::class);
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $post = $request->request->all();
+//            $service = $this->get('sales_man.estimate');
+            return $this->render('SalesManBundle:Default:estimatePeriod.html.twig', [
+                'data' => $post
+            ]);
+        }
+
+        return $this->render('SalesManBundle:Default:index.html.twig', [
+//            'post' => $post,
+            'form' => $form->createView(),
         ]);
     }
 }
